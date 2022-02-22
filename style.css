@@ -842,7 +842,8 @@ h4 {
     background-image: url("img/image-de-presentation.png");
 }
 footer ul{
-    display:flex;
+    display: flex;
+    flex-flow: wrap;
 }
 footer ul li{
     margin: 0% 5%;
@@ -1039,17 +1040,18 @@ footer ul li{
         width: 180px;
         height: 320px;
     }
+    .social{
+        display: flex;
+        justify-content: space-between;
+    }
+    .bloc-mob-center-text {
+        text-align: center;
+    }
 }
 
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
-    }
-}
-
-@media (max-width: 767px) {
-    .bloc-mob-center-text {
-        text-align: center;
     }
 }
