@@ -846,7 +846,7 @@ footer ul{
     flex-flow: wrap;
 }
 footer ul li{
-    margin: 0% 5%;
+    margin: 3% 7%;
 }
 @media (max-width: 1024px) {
     .bloc.full-width-bloc,
